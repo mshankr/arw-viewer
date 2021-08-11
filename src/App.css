@@ -1,3 +1,17 @@
+@import "tachyons";
+
+.dropzone {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80)
+    no-repeat center right;
+  background-size: cover;
+}
+
 .App {
   text-align: center;
 }

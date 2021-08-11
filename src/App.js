@@ -2,12 +2,10 @@ import React, { useCallback, useRef, useState } from "react";
 import { useDropzone } from "react-dropzone";
 import * as dcraw from "dcraw";
 
-import logo from "./logo.svg";
 import "./App.css";
 
 const MyDropZone = () => {
   const [imageURLs, setImageURLs] = useState([]);
-  const dropzoneRef = useRef(null);
   const onDrop = useCallback((acceptedFiles) => {
     // let imageURLs = [];
     const reader = new FileReader();
@@ -48,11 +46,19 @@ const MyDropZone = () => {
           ))}
         </div>
       ) : (
-        <p>
-          {isDragActive
-            ? "Drop the files here..."
-            : "Drag 'n' drop some files here, or click to select files"}
-        </p>
+        <div className="dropzone white">
+          <p className="f1 fw9 measure">FREE ONLINE RAW FILE VIEWER</p>
+          <p className="f3">
+            Simple, quick, convenient - 0 wait time
+            <br />
+            Remove the hassle of downloading!
+          </p>
+          {isDragActive ? (
+            <p>Drop the files here...</p>
+          ) : (
+            <p>Drag 'n' drop some files here, or click to select files</p>
+          )}
+        </div>
       )}
     </div>
   );
