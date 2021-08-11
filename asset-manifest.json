@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/arw-viewer/static/css/main.861b0698.chunk.css",
+    "main.js": "/arw-viewer/static/js/main.7bc9720a.chunk.js",
+    "main.js.map": "/arw-viewer/static/js/main.7bc9720a.chunk.js.map",
+    "runtime-main.js": "/arw-viewer/static/js/runtime-main.00e91366.js",
+    "runtime-main.js.map": "/arw-viewer/static/js/runtime-main.00e91366.js.map",
+    "static/css/2.2be52c73.chunk.css": "/arw-viewer/static/css/2.2be52c73.chunk.css",
+    "static/js/2.6b58d271.chunk.js": "/arw-viewer/static/js/2.6b58d271.chunk.js",
+    "static/js/2.6b58d271.chunk.js.map": "/arw-viewer/static/js/2.6b58d271.chunk.js.map",
+    "static/js/3.2311720c.chunk.js": "/arw-viewer/static/js/3.2311720c.chunk.js",
+    "static/js/3.2311720c.chunk.js.map": "/arw-viewer/static/js/3.2311720c.chunk.js.map",
+    "index.html": "/arw-viewer/index.html",
+    "static/css/2.2be52c73.chunk.css.map": "/arw-viewer/static/css/2.2be52c73.chunk.css.map",
+    "static/css/main.861b0698.chunk.css.map": "/arw-viewer/static/css/main.861b0698.chunk.css.map",
+    "static/js/2.6b58d271.chunk.js.LICENSE.txt": "/arw-viewer/static/js/2.6b58d271.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00e91366.js",
+    "static/css/2.2be52c73.chunk.css",
+    "static/js/2.6b58d271.chunk.js",
+    "static/css/main.861b0698.chunk.css",
+    "static/js/main.7bc9720a.chunk.js"
+  ]
+}
