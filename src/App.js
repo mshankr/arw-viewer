@@ -53,6 +53,10 @@ const MyDropZone = () => {
             <br />
             Remove the hassle of downloading!
           </p>
+          <p className="f3">
+            Works with ALL RAW file types (.arw, .cr2, .crw, .nef, .orw, .rw2)
+            except .dng
+          </p>
           {isDragActive ? (
             <p>Drop the files here...</p>
           ) : (
