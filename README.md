@@ -68,3 +68,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Free online ARW-viewer! Accepts ALL RAW file types (.arw, .cr2, .crw, .nef, .orw, .rw2) except .dng. Credits to Daniel C for the RAW file decoder
